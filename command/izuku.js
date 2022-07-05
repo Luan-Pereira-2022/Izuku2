@@ -168,7 +168,11 @@ ${readmore}
 ├ ${prefix}hentai2
 ├ ${prefix}hentai3
 ├ ${prefix}hentai4
-└ ${prefix}hentai5
+├ ${prefix}hentai5
+├ ${prefix}hentaigif
+├ ${prefix}nsfwnekogif
+├ ${prefix}neko
+└ ${prefix}bloobs
 ${readmore}
 ╭「 *𝐀𝐋𝐄𝐀𝐓𝐎𝐑𝐈𝐎* 」
 ├ ${prefix}jodohku
@@ -1430,33 +1434,57 @@ case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': ca
   }
   break
 //𝐇𝐄𝐍𝐓𝐀𝐈
-  case 'hentai': 
+  case 'hentai':
+if (!m.isGroup) return m.reply(mess.group)
 m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/pussy?apikey=izuku10`
 izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
- case 'hentai2': 
+ case 'hentai2':
+if (!m.isGroup) return m.reply(mess.group)
 m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/creampie?apikey=izuku10`
 izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
 break
- case 'hentai3': 
+ case 'hentai3':
+if (!m.isGroup) return m.reply(mess.group)
 m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/tentacles?apikey=izuku10`
 izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
 break
- case 'hentai4': 
+ case 'hentai4':
+if (!m.isGroup) return m.reply(mess.group)
 m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/manga?apikey=izuku10`
 izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
 break
  case 'hentai5': 
+if (!m.isGroup) return m.reply(mess.group)
 m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/incest?apikey=lizuku10`
 izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
 break
- case 'hentaigif': 
+ case 'hentaigif':
+if (!m.isGroup) return m.reply(mess.group)
 m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/hentaigif?apikey=lizuku10`
+izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
+break
+ case 'nsfwnekogif':
+if (!m.isGroup) return m.reply(mess.group)
+m.reply(mess.wait)
+ buffer = `https://brizas-api.herokuapp.com/random/hentai/nsfwnekogif?apikey=izuku10`
+izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
+break
+case 'neko':
+if (!m.isGroup) return m.reply(mess.group)
+m.reply(mess.wait)
+ buffer = `https://brizas-api.herokuapp.com/random/hentai/neko?apikey=izuku10`
+izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
+break
+case 'boobs':
+if (!m.isGroup) return m.reply(mess.group)
+m.reply(mess.wait)
+ buffer = `https://brizas-api.herokuapp.com/random/hentai/boobs?apikey=izuku10`
 izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
 break
 //Random
