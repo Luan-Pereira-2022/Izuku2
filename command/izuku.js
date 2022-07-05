@@ -1454,6 +1454,11 @@ m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/incest?apikey=lizuku10`
 izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
 break
+ case 'hentaigif': 
+m.reply(mess.wait)
+ buffer = `https://brizas-api.herokuapp.com/random/hentai/hentaigif?apikey=lizuku10`
+izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
+break
 //Random
 case 'jodohku': {
   if (!m.isGroup) return m.reply(mess.group)
