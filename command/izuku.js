@@ -171,8 +171,8 @@ ${readmore}
 ├ ${prefix}hentai5
 ├ ${prefix}hentaigif
 ├ ${prefix}nsfwnekogif
-├ ${prefix}neko
-└ ${prefix}bloobs
+├ ${prefix}nekonporn
+└ ${prefix}bloobsporn
 ${readmore}
 ╭「 *𝐀𝐋𝐄𝐀𝐓𝐎𝐑𝐈𝐎* 」
 ├ ${prefix}jodohku
@@ -1475,13 +1475,13 @@ m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/nsfwnekogif?apikey=izuku10`
 izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
 break
-case 'neko':
+case 'nekoporn':
 if (!m.isGroup) return m.reply(mess.group)
 m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/neko?apikey=izuku10`
 izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
 break
-case 'boobs':
+case 'boobsporn':
 if (!m.isGroup) return m.reply(mess.group)
 m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/boobs?apikey=izuku10`
