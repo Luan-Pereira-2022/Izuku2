@@ -1467,7 +1467,7 @@ break
 if (!m.isGroup) return m.reply(mess.group)
 m.reply(mess.wait)
  buffer = `https://brizas-api.herokuapp.com/random/hentai/hentaigif?apikey=lizuku10`
-izuku.sendMessage(m.chat, { image: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
+izuku.sendMessage(m.chat, { video: { url: buffer }, caption: global.mess.suckess }, { quoted: m })
 break
  case 'nsfwnekogif':
 if (!m.isGroup) return m.reply(mess.group)
