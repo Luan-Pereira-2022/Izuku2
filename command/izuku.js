@@ -61,7 +61,7 @@ module.exports = izuku = async(izuku, m, chatUpdate, store) => {
         var ucapanWaktu = 'Alguem me chama pra aloçar ðŸ™ï¸'
 }
         if(time2 < "1:00:00"){
-        var ucapanWaktu = 'Boa Tarde ðŸŒ†'
+        var ucapanWaktu = 'Boa h ðŸŒ†'
 }
         if(time2 < "18:00:00"){
         var ucapanWaktu = 'Selamat Sore ðŸŒ‡'
@@ -169,15 +169,19 @@ switch(command) {
 
 case 'menu': case 'help': {
   let menunya = `╭「 *𝐈𝐙𝐔𝐊𝐔 𝐌𝐃* 」
- 𝐏𝐚𝐫𝐚 𝐮𝐬𝐚𝐫 𝐨 𝐛𝐨𝐭 𝐯𝐞𝐣𝐚 𝐨𝐬 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬 🎉🎗️
- 📒 Use com moderação, ajude no desenvolvimento
+├ 𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬👥 : ${userB.length}
+├ 𝐃𝐚𝐭𝐚📆 : ${date}
+├ 𝐇𝐨𝐫𝐚🤖 : ${wib}
+└ 𝐏𝐫𝐞𝐟𝐢𝐱𝐨🧩 :${prefix} 
  
- ≡ 🧩 -  ${prefix}𝐦𝐞𝐧𝐮𝐠𝐫𝐮𝐩𝐨  
- ≡ 🧩 -  ${prefix}𝐦𝐞𝐧𝐮𝐢𝐦𝐚𝐠𝐞𝐦
- ≡ 🧩 -  ${prefix}𝐦𝐞𝐧𝐮𝐚𝐧𝐢𝐦𝐞
- ≡ 🧩 -  ${prefix}𝐦𝐞𝐧𝐮𝐟𝐢𝐠𝐮𝐫𝐢𝐧𝐡𝐚𝐬
- ≡ 🧩 -  ${prefix}𝐦𝐞𝐧𝐮𝐚𝐥𝐞𝐚𝐭𝐨𝐫𝐢𝐨
- ≡ 🧩 -  ${prefix}𝐦𝐞𝐧𝐮𝐨𝐮𝐭𝐫𝐨𝐬
+╭「 *CMDS MENUS📜* 」
+├ ≡ 🧩 ${prefix}𝐦𝐞𝐧𝐮𝐠𝐫𝐮𝐩𝐨
+├ ≡ 🧩 ${prefix}𝐦𝐞𝐧𝐮𝐢𝐦𝐚𝐠𝐞𝐦
+├ ≡ 🧩 ${prefix}𝐦𝐞𝐧𝐮𝐚𝐧𝐢𝐦𝐞
+├ ≡ 🧩 ${prefix}𝐦𝐞𝐧𝐮𝐟𝐢𝐠𝐮𝐫𝐢𝐧𝐡𝐚𝐬
+├ ≡ 🧩 ${prefix}𝐦𝐞𝐧𝐮𝐚𝐥𝐞𝐚𝐭𝐨𝐫𝐢𝐨
+├ ≡ 🧩 ${prefix}𝐦𝐞𝐧𝐮𝐨𝐮𝐭𝐫𝐨𝐬
+└ ≡ 🧩 ${prefix}𝐫𝐞𝐩𝐨𝐫𝐭 - 𝐞𝐫𝐫𝐨
 `
   let btnn = [ 
      {quickReplyButton: {displayText: '𝐒𝐓𝐀𝐓𝐔𝐒✅', id: 'ping'}}, 
