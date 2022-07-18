@@ -1,11 +1,6 @@
 <p align="center">
-  <img width="300" height="150" src="https://github.com/xiecaa/Wansap-Bot/blob/bacc893b90b48b4e7e33fb49ce823faa0b42708e/media/imgnya.jpg">
-</p>
+<img src="https://telegra.ph/file/6204f8a9abaa4917d2701.jpg" alt="Izuku Bot" width="500"/>
 
-<p align="center">
-   <img 
-    src="https://readme-typing-svg.herokuapp.com?color=%422446&size=25&center=true&height=60&lines=Welcome+To+RoF3X+Bot;Script+By+FxSx"
-   />
 </p>
 <p align="center">   
 <a href="https://instagram.com/luanpereira_66" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
@@ -25,7 +20,7 @@ yarn
 npm start
 ```
 
-## Install From Windows/Rdp
+## 𝐈𝐧𝐬𝐭𝐚𝐥𝐚𝐜𝐚𝐨 𝐖𝐢𝐧𝐝𝐨𝐰𝐬/𝐑𝐝𝐩
 
 Instal Git      : [`Klik Disini`](https://git-scm.com/downloads)
 Instal NodeJS : [`Klik Disini`](https://nodejs.org/en/download)
@@ -38,7 +33,7 @@ yarn
 npm start
 ```
 
-## Install From Heroku <BuildPack>
+## 𝐇𝐨𝐬𝐩𝐞𝐝𝐚𝐠𝐞𝐦 𝐇𝐞𝐫𝐨𝐤𝐮 <BuildPack>
 
 Install NodeJs : [`Klik Disini`](heroku/nodejs)
 Install Ffmpeg : [`Klik Disini`](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git)
