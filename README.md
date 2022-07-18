@@ -9,7 +9,7 @@
 </p>
 
 ## 𝐔𝐬𝐚𝐧𝐝𝐨 𝐨 𝐓𝐞𝐫𝐦𝐮𝐱/𝐔𝐛𝐮𝐧𝐭𝐮/𝐒𝐬𝐡
-```𝐛𝐚𝐬𝐡
+```bash
 pkg update && pkg upgrade
 pkg i git -y
 pkg i nodejs -y
