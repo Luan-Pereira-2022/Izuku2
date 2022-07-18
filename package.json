@@ -1,5 +1,5 @@
 {
-  "name": "RoF3X-MD",
+  "name": "Izuku-MD",
   "version": "1.0.0",
   "description": "Nganu",
   "main": "connect/index.js",
@@ -70,10 +70,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiecaa/Wansap-Bot.git"
+    "url": "git+https://github.com/Luan-Pereira-2022/Izuku2.git"
   },
   "bugs": {
-    "url": "https://github.com/xiecaa/Wansap-Bot/issues"
+    "url": "https://github.com/Luan-Pereira-2022/Izuku2/issues"
   },
-  "homepage": "https://github.com/xiecaa/Wansap-Bot#readme"
+  "homepage": "https://github.com/Luan-Pereira-2022/Izuku2#readme"
 }
