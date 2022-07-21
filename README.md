@@ -14,28 +14,28 @@ pkg i git -y
 pkg i nodejs -y
 pkg i ffmpeg -y
 pkg i yarn
-git clone https://github.com/xiecaa/Wansap-Bot
-cd Wansap-Bot
+git clone https://github.com/Luan-Pereira-2022/Izuku2
+cd Izuku2
 yarn
 npm start
 ```
 
 ## 𝐈𝐧𝐬𝐭𝐚𝐥𝐚𝐜𝐚𝐨 𝐖𝐢𝐧𝐝𝐨𝐰𝐬/𝐑𝐝𝐩
 
-Instal Git      : [`Klik Disini`](https://git-scm.com/downloads)
-Instal NodeJS : [`Klik Disini`](https://nodejs.org/en/download)
-Instal FFmpeg : [`Klik Disini`](https://ffmpeg.org/download.html)
+Instale o Git      : [`Klik Disini`](https://git-scm.com/downloads)
+Instale o NodeJS : [`Klik Disini`](https://nodejs.org/en/download)
+Instale o FFmpeg : [`Klik Disini`](https://ffmpeg.org/download.html)
 
 ```bash
-git clone https://github.com/xiecaa/Wansap-Bot
-cd Wansap-Bot
+git clone https://github.com/Luan-Pereira-2022/Izuku2
+cd Izuku2
 yarn
 npm start
 ```
 
 ## 𝐇𝐨𝐬𝐩𝐞𝐝𝐚𝐠𝐞𝐦 𝐇𝐞𝐫𝐨𝐤𝐮 <BuildPack>
 
-Install NodeJs : [`Klik Disini`](heroku/nodejs)
-Install Ffmpeg : [`Klik Disini`](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git)
-Install Webp   : [`Klik Disini`](https://github.com/clhuang/heroku-buildpack-webp-binaries.git)
+Instale o NodeJs : [`Klik Disini`](heroku/nodejs)
+Instale o Ffmpeg : [`Klik Disini`](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git)
+Instale o Webp   : [`Klik Disini`](https://github.com/clhuang/heroku-buildpack-webp-binaries.git)
 
