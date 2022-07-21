@@ -22,9 +22,9 @@ npm start
 
 ## 𝐈𝐧𝐬𝐭𝐚𝐥𝐚𝐜𝐚𝐨 𝐖𝐢𝐧𝐝𝐨𝐰𝐬/𝐑𝐝𝐩
 
-Instale o Git      : [`Klik Disini`](https://git-scm.com/downloads)
-Instale o NodeJS : [`Klik Disini`](https://nodejs.org/en/download)
-Instale o FFmpeg : [`Klik Disini`](https://ffmpeg.org/download.html)
+Instale o Git      : [`Clique aqui`](https://git-scm.com/downloads)
+Instale o NodeJS : [`Clique aqui`](https://nodejs.org/en/download)
+Instale o FFmpeg : [`Clique aqui`](https://ffmpeg.org/download.html)
 
 ```bash
 git clone https://github.com/Luan-Pereira-2022/Izuku2
@@ -35,7 +35,7 @@ npm start
 
 ## 𝐇𝐨𝐬𝐩𝐞𝐝𝐚𝐠𝐞𝐦 𝐇𝐞𝐫𝐨𝐤𝐮 <BuildPack>
 
-Instale o NodeJs : [`Klik Disini`](heroku/nodejs)
-Instale o Ffmpeg : [`Klik Disini`](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git)
-Instale o Webp   : [`Klik Disini`](https://github.com/clhuang/heroku-buildpack-webp-binaries.git)
+Instale o NodeJs : [`Clique aqui`](heroku/nodejs)
+Instale o Ffmpeg : [`Clique aqui`](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git)
+Instale o Webp   : [`Clique aqui`](https://github.com/clhuang/heroku-buildpack-webp-binaries.git)
 
